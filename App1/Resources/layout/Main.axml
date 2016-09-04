@@ -1,13 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-<Button  
-    android:id="@+id/MyButton"
-    android:layout_width="match_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/Hello"
-    />
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:background="#FFFFFF">
+    <ImageView
+        p1:src="@drawable/prr"
+        p1:layout_width="390.0dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/imageView1" />
+    <ImageButton
+        p1:src="@drawable/label3"
+        p1:layout_width="49.0dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/imageButton1"
+        p1:background="#000000"
+        p1:layout_marginTop="-42dp"
+        p1:layout_marginLeft="20dp" />
+    <ImageButton
+        p1:src="@drawable/pens"
+        p1:layout_width="49.5dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/imageButton2"
+        p1:background="#000000"
+        p1:layout_marginTop="-30dp"
+        p1:layout_marginLeft="320dp" />
+    <ImageView
+        p1:src="@drawable/touxiang"
+        p1:layout_width="match_parent"
+        p1:layout_height="175.5dp"
+        p1:id="@+id/imageView2"
+        p1:layout_marginTop="20dp" />
+    <TextView
+        p1:text="Postion"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:textColor="#000000"
+        p1:layout_marginBottom="6.5dp"
+        p1:layout_marginTop="40dp"
+        p1:layout_marginLeft="100dp" />
+    <TextView
+        p1:text="XXXXXX"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView2"
+        p1:textColor="#000000"
+        p1:layout_marginBottom="6.5dp"
+        p1:layout_marginLeft="100dp"
+        p1:layout_marginTop="-10dp" />
+    <ImageButton
+        p1:src="@drawable/label12"
+        p1:layout_width="94.5dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/imageButton3"
+        p1:layout_marginTop="-35dp"
+        p1:background="#FFFFFF" />
+    <TextView
+        p1:text="Location"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView3"
+        p1:textColor="#000000"
+        p1:layout_marginLeft="100dp"
+        p1:layout_marginTop="10dp" />
+    <TextView
+        p1:text="XXXXXX"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView4"
+        p1:layout_marginLeft="100dp"
+        p1:textColor="#000000" />
+    
+    <ImageButton
+        p1:src="@drawable/label12"
+        p1:layout_width="94.0dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/imageButton4"
+        p1:layout_marginTop="-30dp"
+        p1:background="#FFFFFF" />
+    <TextView
+        p1:text="Email"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView5"
+        p1:textColor="#000000"
+        p1:layout_marginLeft="100dp"
+        p1:layout_marginTop="10dp" />
+    <TextView
+        p1:text="staff@company.com"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView6"
+        p1:textColor="#000000"
+        p1:layout_marginLeft="100dp" />
+    <ImageButton
+        p1:src="@drawable/label12"
+        p1:layout_width="93.5dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/imageButton5"
+        p1:layout_marginTop="-30dp"
+        p1:background="#FFFFFF" />
+    <TextView
+        p1:text="Work Phone"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView7"
+        p1:textColor="#000000"
+        p1:layout_marginLeft="100dp"
+        p1:layout_marginTop="10dp" />
+    <TextView
+        p1:text="00-00000"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView8"
+        p1:textColor="#000000"
+        p1:layout_marginLeft="100dp" />
+    <ImageButton
+        p1:src="@drawable/label12"
+        p1:layout_width="94.5dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/imageButton6"
+        p1:layout_marginTop="-30dp"
+        p1:background="#FFFFFF" />
+    <TextView
+        p1:text="ALLOW LOCATION ACCESS"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView9"
+        p1:layout_marginLeft="100dp"
+        p1:layout_marginTop="15dp"
+        p1:textColor="#000000" />
+    <ImageButton
+        p1:src="@drawable/label12"
+        p1:layout_width="41.5dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/imageButton7"
+        p1:layout_marginTop="-30dp"
+        p1:background="#FFFFFF"
+        p1:layout_marginLeft="280dp" />
 </LinearLayout>
